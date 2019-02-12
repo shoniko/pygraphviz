@@ -15,3 +15,13 @@ Dan Schult <dschult@colgate.edu>
 Manos Renieris, http://www.cs.brown.edu/~er/
 Distributed with BSD license.     
 All rights reserved, see LICENSE.txt for details.
+
+Windows 10 installation
+-----------
+Download [GraphViz](https://ci.appveyor.com/project/ellson/graphviz-pl238/build/job/5txdbqadymi94vra/artifacts).
+
+Then run:
+
+```
+python setup.py install --user --include-path=C:\\...\\graphviz\\include --library-path=C:\\...\\graphviz\\lib
+```
